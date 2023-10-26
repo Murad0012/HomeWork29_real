@@ -7,15 +7,5 @@ let bool = false
 
 bar.onclick = function(){
     bool = !bool;
-    sidebar.style.display = "block";
-    if(bool){
-        block1.onclick = function(){
-            sidebar.style.display = "none";
-        }
-
-        block2.onclick = function(){
-            sidebar.style.display = "none";
-        }
-        
-    }
+    sidebar.style.transform = "translateX(0px)";
 }
